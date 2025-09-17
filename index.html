@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Expresso</title>
+    <!-- font awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!--linking swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="navbar-logo">
+                <h2 class="logo-text">☕ Expresso</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Success Story</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact-US</a>
+                </li>
+                <li class="nav-item">
+                    <button id="signin-btn" class="nav-link">Sign In</button>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="section-content">
+                  <div class="hero-details">
+                    <h2 class="title">Awesome Coffe</h2>
+                    <h3 class="subtitle">Make your day great with our special coffee!</h3>
+                    <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#" class="button contact-us">Contact-Us</a>
+                    </div>
+                  </div>
+                  <div class="hero-image-wrapper">
+                    <img src="/image.png" alt="Hero" class="hero-image">
+                  </div>
+            </div>
+        </section>
+        <!-- About section-->
+         <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="/about-image.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About-Us</h2>
+                    <p class="text">Coffee, one of the world’s most loved beverages, originated in Ethiopia in the 9th century and has since grown into a global tradition. It comes from the seeds of coffee cherries, commonly called beans, with Arabica, Robusta, Liberica, and Excelsa being the main varieties. Arabica is smooth and aromatic, while Robusta is stronger, more bitter, and higher in caffeine; Liberica offers rare fruity notes, and Excelsa adds a tart, complex flavor. The journey from bean to cup includes cultivation in tropical regions, careful harvesting, processing, roasting, and brewing through methods like espresso, French press, or pour-over.</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!--menu section-->
+         <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="/menu-image1.png" alt="Hot Coffee" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Hot Coffee</h3>
+                            <p class="text">A steaming cup of freshly brewed coffee, served piping hot to invigorate your senses.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="/menu-image2.png" alt="Cold Coffee" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Cold Coffee</h3>
+                            <p class="text">Chilled and refreshing iced coffee, served cold in a stylish to-go cup for extra cool vibes.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="/menu-image3.png" alt="Refreshment Juice" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Refreshment Juice</h3>
+                            <p class="text">Freshly squeezed fruit juice, rich in vitamins and flavor—perfect for a refreshing boost.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="/menu-image4.png" alt="Burgers" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Burgers</h3>
+                            <p class="text">Juicy grilled patty with fresh veggies, cheese, and sauces packed in a soft bun.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="/menu-image5.png" alt="Desserts" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Desserts</h3>
+                            <p class="text">Sweet and delightful treats to complete your meal, from cakes to pastries.</p>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <img src="/menu-image6.png" alt="Special Combos" class="menu-image">
+                        <div class="menu-details">
+                            <h3 class="name">Special Combos</h3>
+                            <p class="text">Handpicked meal combos like Burger & Cold Coffee, Pizza & Juice, or Sandwich & Hot Coffee for a complete treat.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+         </section>
+         <!-- feedback section-->
+          <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">Success-Story</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="/feedback-image1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Sarah Johnson</h3>
+                                <i class="feedback">"Loved the burger. perfectly balanced and rich. Will order again!"</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="/feedback-image2.jpg" alt="User" class="user-image">
+                                <h3 class="name">Emily Harris</h3>
+                                <i class="feedback">“Absolutely refreshing! The cold coffee was creamy and chilled to perfection.”</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="/feedback-image3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Sofia Grace</h3>
+                                <i class="feedback">“Desserts were heavenly! Soft, sweet, and the perfect way to end the meal.”</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="/feedback-image4.jpg" alt="User" class="user-image">
+                                <h3 class="name">Jamie Smith</h3>
+                                <i class="feedback">“The combo was excellent value – tasty, filling, and well put together.”</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="/feedback-image5.jpg" alt="User" class="user-image">
+                                <h3 class="name">Mathew Heins</h3>
+                                <i class="feedback">“The fresh juice was so vibrant and natural. Truly refreshing and healthy.”</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="/feedback-image6.jpg" alt="User" class="user-image">
+                                <h3 class="name">Sameera Thomas</h3>
+                                <i class="feedback">“Rich flavor and perfectly brewed. Just the way I love my coffee!”</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="/feedback-image7.jpg" alt="User" class="user-image">
+                                <h3 class="name">Amelia Peter</h3>
+                                <i class="feedback">“Perfect mix of flavors and portions. Highly recommend the combos!”</i>
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <!--gallery section-->
+          <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="/gallery-image4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="/gallery-image3.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="/gallery-image5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="/gallery-image6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="/gallery-image1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="/gallery-image2.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+          </section>
+          <!--contact form-->
+          <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact-Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>123 Campsite Avenue, Wilderness, CA 98765</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>info@CoffeeExpressoWebsite.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(123) 456-78909</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday - saturday: 8:00 AM - 8:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sunday: 10:00 AM - 5:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>WWW.CoffeeExpresso.com</p>
+                    </li>
+                </ul>
+
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Name" class="form-input" required>
+                    <input type="email" placeholder="E-mail" class="form-input" required>
+                    <textarea placeholder="Your message" class="form-input" required></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+          </section>
+          <!--footer section-->
+          <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">@ 2024 Bevarages</p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="seperator">*</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+            </div>
+
+          </footer>
+    </main>
+    <div id="signin-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <h2>Sign In</h2>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter Username" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter Email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter Password" required>
+
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+        </div>
+    </div>
+    <!--linking swiper script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+    // Open Modal
+    function openModal() {
+      document.getElementById("signinModal").style.display = "flex";
+    }
+
+    // Close Modal
+    function closeModal() {
+      document.getElementById("signinModal").style.display = "none";
+    }
+
+    // Form Submission
+    document.getElementById("signinForm").addEventListener("submit", async function(e) {
+      e.preventDefault();
+
+      let formData = new FormData(this);
+
+      let response = await fetch("register.php", {
+        method: "POST",
+        body: formData
+      });
+
+      let result = await response.text();
+      alert(result); // popup showing server response
+
+      if (result.includes("success")) {
+        closeModal();
+        this.reset();
+      }
+    });
+  </script>
+</body>
+</html>
